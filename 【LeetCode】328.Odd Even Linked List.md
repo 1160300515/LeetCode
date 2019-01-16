@@ -31,7 +31,7 @@ Output: 2->3->6->7->1->5->4->NULL
 简单的链表操作，一个奇数节点的ListNode，一个偶数节点的ListNode，最后将偶数的链接到奇数后面。
 #### 代码
 
-```java{#dd style="white-space: pre;background: rgba(24, 23, 27, 1);"}
+```java
 public ListNode oddEvenList(ListNode head) {
     ListNode odd = head;
     if (head == null || head.next == null)
